@@ -9,5 +9,16 @@
             "email": "417170808@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload": {
+        "psr-4" : {
+            "Andphp\\Demo\\"  : "src"
+        },
+        "files" : [
+            "src/helper.php"
+        ],
+        "classmap"  : [
+            "src/Common"
+        ]
+    }
 }
